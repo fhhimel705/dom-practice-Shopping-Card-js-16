@@ -15,7 +15,7 @@ document.getElementById("buy-btn").addEventListener("click", function () {
   const existingPaid = document.getElementById('paid');
 
   if (existingPaid) {
-    existingPaid.innerText = "paid : " + discountPrice + "$";
+    existingPaid.innerText = "Paid : " + discountPrice + "$";
   } else {
     const paid = document.createElement("p");
     paid.id = 'paid';
